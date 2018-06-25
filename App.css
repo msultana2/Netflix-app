@@ -1,0 +1,26 @@
+.App {
+  text-align: left;
+}
+.Movie-row {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Movie-row h4 {
+  margin: 0;
+  padding: 0;
+}
+.Show-btn {
+  position: relative;
+}
+.Show-btn img {
+  cursor: pointer;
+}
+.Show-btn button {
+  position: absolute;
+  display: none;
+}
+.Show-btn:hover button {
+  display: block;
+}
